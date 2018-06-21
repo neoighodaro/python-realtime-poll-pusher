@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Python Poll</title>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+	<style type="text/css">
+		.poll-member h1 {
+			cursor: pointer
+		}
+
+    .percentageBarParent{
+      height: 22px;
+      width: 100%;
+      border: 1px solid black;
+    }
+
+    .percentageBar {
+      height: 20px;
+      width: 0%;
+    }
+	</style>
+</head>
+<body>
+	<div class="main">
+      <div class="container">
+        <h1>What's your preferred language?</h1>
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="poll-member Go">
+                <h1>Go&nbsp;&nbsp;</h1>
+                <div class="percentageBarParent">
+                <div class="percentageBar" id="Go"></div>
+              </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="poll-member ">
+                <h1>Python&nbsp;&nbsp;</h1> 
+                <div class="percentageBarParent">
+                <div class="percentageBar" id="Python"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="poll-member PHP">
+                <h1>PHP&nbsp;&nbsp;</h1> 
+                <div class="percentageBarParent">
+                <div class="percentageBar" id="PHP"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="poll-member Ruby">
+                <h1>Ruby&nbsp;&nbsp;</h1> 
+                <div class="percentageBarParent">
+                <div class="percentageBar" id="Ruby"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SCRIPTS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.16.2/axios.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="https://js.pusher.com/4.0/pusher.min.js"></script>
+	<script type="text/javascript" src="{{ url_for('static', filename='app.js') }}" defer></script>
+
+</body>
+</html>
