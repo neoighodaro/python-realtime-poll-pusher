@@ -18,15 +18,17 @@ What things you need to install the software.
 
 Clone the git repository on your computer
 
-> $ git clone https://github.com/neoighodaro-articles/...
+> $ git clone https://github.com/neoighodaro/python-realtime-poll-pusher
 
 You can also download the entire repository as a zip file and unpack in on your computer if you do not have git
 
 After cloning the application, you need to install it's dependencies.
 
-> $ cd ...
+> $ cd python-realtime-poll-pusher
 
-> $ sudo pip install flask, pusher, simplejson
+> $ pip install flask
+> $ pip install pusher
+> $ pip install simplejson
 
 ## Setup
 
