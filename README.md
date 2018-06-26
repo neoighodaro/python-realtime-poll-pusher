@@ -1,6 +1,6 @@
 # Realtime polling application with Pusher and Python
 
-This is a demo application showing how to build a realtime polling application using [Python](https://www.python.org/) and [Pusher](https://pusher.com/). You can read about how it was created on [Pusher's blog](https://blog.pusher.com/author/neo/).
+This is a demo application showing how to build a realtime polling application using [Python](https://www.python.org/) and [Pusher](https://pusher.com/). You can read about how it was created on [Pusher's blog](https://pusher.com/tutorials/live-poll-python).
 
 ## Getting Started
 
